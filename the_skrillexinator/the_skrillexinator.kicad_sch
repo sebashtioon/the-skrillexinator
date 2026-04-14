@@ -2793,7 +2793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2878,7 +2878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 176.53 33.02 0)
 			(hide yes)
 			(show_name no)
