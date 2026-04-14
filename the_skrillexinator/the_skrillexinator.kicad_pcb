@@ -1309,7 +1309,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8a9552a1-dd84-4f36-a2c1-bbb3a5b3eba1")
-		(at 106.5 91.65)
+		(at 107 91.65)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
