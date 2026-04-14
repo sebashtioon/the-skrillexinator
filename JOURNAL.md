@@ -1,11 +1,17 @@
+# 14/04/2026 - done pcb
+Time spent: 0.5h
+
+this took me a bit to figure out but i managed :)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b8072e37-8658-461e-8bd5-8ff022eb780f" />
+
+
 # 14/04/2026 - done schematic
 Time spent: 0.5h
 
 i think its time to move onto pcbing this boi!!!
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad93233e-53f9-4728-9cbd-415e1f116222" />
-
-
 
 # 14/04/2026 - reset
 Time spent: 0.0h
