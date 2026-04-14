@@ -1,3 +1,10 @@
+# 14/04/2026 - wire soup
+Time spent: 1.5h
+
+okay... well i watched a little tutorial and i came up with this so far
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cfa9b913-8307-4269-8bf3-afbb6b08a0a9" />
+
 # 14/04/2026 - starting in kicad
 Time spent: 0.5h
 
