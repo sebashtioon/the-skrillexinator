@@ -192,6 +192,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-WROOM-32"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1267,6 +1407,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.2) (xy 181.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002c69d9-f5c8-4036-8ab7-9dedf156cc00")
+	)
+	(wire
+		(pts
 			(xy 142.24 151.13) (xy 142.24 139.7)
 		)
 		(stroke
@@ -1274,6 +1424,36 @@
 			(type default)
 		)
 		(uuid "02463df1-8a63-4d0a-8ec3-08d89161b650")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 142.24 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076cc01e-2805-4819-8243-7d592094051a")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 165.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e64fbf1-3e94-4e88-89e8-fb68e15adfa9")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133c5870-2fa1-4af8-842f-825af2a8fb21")
 	)
 	(wire
 		(pts
@@ -1307,6 +1487,26 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 148.59) (xy 144.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd99a5d-dfa9-4f52-82c2-e960e19d4218")
+	)
+	(wire
+		(pts
+			(xy 181.61 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ff19522-80b5-4a27-9574-e67d36a85926")
+	)
+	(wire
+		(pts
 			(xy 215.9 38.1) (xy 215.9 151.13)
 		)
 		(stroke
@@ -1314,6 +1514,16 @@
 			(type default)
 		)
 		(uuid "364d910b-d497-47ff-9190-9f7363fd46d8")
+	)
+	(wire
+		(pts
+			(xy 142.24 116.84) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dfe122-6478-4876-a910-8596c1b532af")
 	)
 	(wire
 		(pts
@@ -1337,13 +1547,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 87.63) (xy 176.53 87.63)
+			(xy 181.61 62.23) (xy 165.1 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57a976cd-2a84-4226-8a0c-bc022462613e")
+		(uuid "637e3343-dad1-41e1-aec3-1ce06c94ddc9")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a012626-f0f2-4bcf-995c-fce93a1364d3")
 	)
 	(wire
 		(pts
@@ -1357,13 +1577,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 87.63) (xy 176.53 38.1)
+			(xy 132.08 49.53) (xy 134.62 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a1f7a92-76fb-4f9d-804b-96b35460ef3a")
+		(uuid "8072754c-32fc-4cae-9fc8-96acedbe9f27")
+	)
+	(wire
+		(pts
+			(xy 132.08 72.39) (xy 132.08 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886958cd-6336-40a6-a8a0-3d86d85a2d92")
 	)
 	(wire
 		(pts
@@ -1377,6 +1607,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 78.74) (xy 177.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24f637c-ff60-4dcd-ae06-97b033dc1918")
+	)
+	(wire
+		(pts
 			(xy 149.86 44.45) (xy 149.86 25.4)
 		)
 		(stroke
@@ -1384,6 +1624,26 @@
 			(type default)
 		)
 		(uuid "a2ad4bcf-ae5e-41b1-b18d-afcc1fe9b057")
+	)
+	(wire
+		(pts
+			(xy 177.8 115.57) (xy 149.86 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd87c6f0-d731-4fda-9f15-1aee5eb5c552")
+	)
+	(wire
+		(pts
+			(xy 181.61 148.59) (xy 144.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6c41b1-2d97-4f24-a4ab-014bdba69eaa")
 	)
 	(wire
 		(pts
@@ -1397,6 +1657,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.28) (xy 181.61 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e627c463-907a-4729-9590-3d530922ba00")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 142.24 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef24b93c-f512-4a16-85f8-66117542cac6")
+	)
+	(wire
+		(pts
 			(xy 215.9 151.13) (xy 142.24 151.13)
 		)
 		(stroke
@@ -1404,6 +1684,88 @@
 			(type default)
 		)
 		(uuid "f5b04b10-c9af-43c1-a3a1-4c12f2bbd01e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a4b0307-554e-456d-a915-af2ce6222f4a")
+		(property "Reference" "R1"
+			(at 134.62 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 134.62 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.302 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56bf57b3-133f-40a7-b1a4-6d6102db94e7")
+		)
+		(pin "2"
+			(uuid "3398f4df-3266-4857-9971-13e0132d45f4")
+		)
+		(instances
+			(project "the_skrillexinator"
+				(path "/76fe25bb-3898-44a0-a654-1d7be38cc137"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1756,7 +2118,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 193.04 82.55 0)
+		(at 186.69 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1767,7 +2129,7 @@
 		(fields_autoplaced yes)
 		(uuid "bea7d9e3-3087-41e9-a481-aba2a82899d5")
 		(property "Reference" "J1"
-			(at 195.58 81.2799 0)
+			(at 189.23 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1778,7 +2140,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 195.58 83.8199 0)
+			(at 189.23 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1789,7 +2151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 82.55 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1800,7 +2162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 82.55 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +2173,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 82.55 0)
+			(at 186.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
