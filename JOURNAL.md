@@ -1,3 +1,9 @@
+# 14/04/2026 - reset
+Time spent: 0.0h
+
+im gonna reset it and probably version control the thingy in this repo
+
+
 # 14/04/2026 - wire soup
 Time spent: 1.5h
 
