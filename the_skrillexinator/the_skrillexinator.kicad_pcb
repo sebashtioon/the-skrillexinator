@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "drill files/")
+			(outputdirectory "../plot/")
 		)
 	)
 	(footprint "RF_Module:ESP32-WROOM-32"
