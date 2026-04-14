@@ -84,7 +84,7 @@
 			(mirror no)
 			(drillshape 1)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "drill files/")
 		)
 	)
 	(footprint "RF_Module:ESP32-WROOM-32"

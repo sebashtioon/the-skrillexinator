@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "drill files/",
       "specctra_dsn": "",
       "vrml": ""
     },
