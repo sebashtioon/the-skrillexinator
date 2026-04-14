@@ -94,7 +94,7 @@
 		(descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
 		(tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
 		(property "Reference" "U1"
-			(at -10.61 8.43 90)
+			(at -0.5 2.43 90)
 			(layer "F.SilkS")
 			(uuid "dd0b74f1-764c-437e-b327-806972606899")
 			(effects
@@ -1061,7 +1061,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.38 0)
+			(at -3 2.25 0)
 			(layer "F.SilkS")
 			(uuid "c79ec5a3-88ea-4f32-a9cf-c31726da6820")
 			(effects
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 0 7.46 0)
+			(at -6.75 0.5 0)
 			(layer "F.Fab")
 			(uuid "e61b86d1-59b9-4c8a-b5be-2424fd4fb638")
 			(effects
@@ -1313,7 +1313,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
-			(at 0 -2.38 0)
+			(at -2.75 2 0)
 			(layer "F.SilkS")
 			(uuid "e9ef7521-38a7-4fe5-aa44-a1117765f5c9")
 			(effects
@@ -1324,7 +1324,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 0 7.46 0)
+			(at -6.5 0.5 0)
 			(layer "F.Fab")
 			(uuid "0c55a94b-8663-46fb-b211-906d926c4a0e")
 			(effects
@@ -1560,7 +1560,7 @@
 	)
 	(gr_rect
 		(start 107.012744 44.374673)
-		(end 160.555616 103.830627)
+		(end 160.786168 94.502682)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -1786,6 +1786,46 @@
 		(uuid "f3c93f74-cef9-40d4-afa1-c231d6b33ec9")
 	)
 	(segment
+		(start 129.26 85.31)
+		(end 143 85.31)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "26e840c9-1930-4491-acc5-bf51dde2a88d")
+	)
+	(segment
+		(start 122 84.54)
+		(end 122 84.88)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "49d6873c-1f90-4a46-9402-0c9429fe53cc")
+	)
+	(segment
+		(start 124.45 87.33)
+		(end 127.24 87.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "5d0d0866-c838-4b60-9ffd-f09e8fa67e1d")
+	)
+	(segment
+		(start 122 84.88)
+		(end 124.45 87.33)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "981eacbd-1047-4c67-ac0d-51b56383ae16")
+	)
+	(segment
+		(start 127.24 87.33)
+		(end 129.26 85.31)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(J2-Pin_2)")
+		(uuid "b3d8db76-28bc-4b37-a7e7-9727f71980fe")
+	)
+	(segment
 		(start 145.75 71.02)
 		(end 145.75 80)
 		(width 0.2)
@@ -1832,46 +1872,6 @@
 		(layer "F.Cu")
 		(net "Net-(J1-Pin_1)")
 		(uuid "ca0ad3ac-9d9e-4429-b2bb-cebf250782e8")
-	)
-	(segment
-		(start 129.26 85.31)
-		(end 143 85.31)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_2)")
-		(uuid "26e840c9-1930-4491-acc5-bf51dde2a88d")
-	)
-	(segment
-		(start 122 84.54)
-		(end 122 84.88)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_2)")
-		(uuid "49d6873c-1f90-4a46-9402-0c9429fe53cc")
-	)
-	(segment
-		(start 124.45 87.33)
-		(end 127.24 87.33)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_2)")
-		(uuid "5d0d0866-c838-4b60-9ffd-f09e8fa67e1d")
-	)
-	(segment
-		(start 122 84.88)
-		(end 124.45 87.33)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_2)")
-		(uuid "981eacbd-1047-4c67-ac0d-51b56383ae16")
-	)
-	(segment
-		(start 127.24 87.33)
-		(end 129.26 85.31)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_2)")
-		(uuid "b3d8db76-28bc-4b37-a7e7-9727f71980fe")
 	)
 	(embedded_fonts no)
 )
